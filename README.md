@@ -1,4 +1,4 @@
-Tao-Zen Ryu Shindo Academy for Martial Arts
+Tao-Zen Ryu Shindo Academy
 ========
 This is the repository for the code for the website of the academy founded by Grandmaster Kwan-Jang Nim J.G. Townsend's Tao-Zen Ryu Shindo system of martial arts.
 
