@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: dldCHuPaDnPtHviLszZ2ANU/n5D42gS0oQYxfYLKGBdrs9Is5cEvw8xTBvBJnJJZkq0uIgoK4jPyFkTTtDNsPLo99IrtapUDv96RjPTNQjcz0Jin4/tscMqWitQugL5vyTi2YnG+SRrtnhYx/1kSX4OdpmE4hFW7lKIbgRCZGCw=
+  app: TaoZenAcademy
+  on:
+    repo: sprestage/TaoZenAcademy
