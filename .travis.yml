@@ -5,6 +5,8 @@ env:
 - DB=postgres
 before_script:
 - psql -c 'create database shindo_test;' -U postgres
+script:
+- RAILS_ENV=production bin/rake assets:precompile
 bundler_args: "--binstubs=./bundler_stubs"
 deploy:
   provider: heroku
@@ -13,3 +15,5 @@ deploy:
   app: taozenacademy
   on:
     repo: sprestage/TaoZenAcademy
+run:
+- RAILS_ENV=production bin/rake assets:precompile
