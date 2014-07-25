@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use postgresql as the database for Active Record for heroku compatibility
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -38,7 +38,7 @@ gem 'minitest-rg'   #simple red/green for all tests
 gem 'pry-rails'#,        group: [:development, :test]
 # gem 'pry-doc'
 # gem 'pry-debugger'
-gem 'figaro'#,        group: [:development, :test]
+# gem 'figaro'#,        group: [:development, :test]
 
 # gem 'turn',        group: :test
 
