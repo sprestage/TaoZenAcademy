@@ -31,17 +31,12 @@ gem 'minitest-rails'#,        group: [:development, :test]
 gem 'minitest-rails-capybara'#,        group: [:development, :test]
 gem 'launchy'#,        group: [:development, :test]
 # gem 'minitest-focus', group: [:development, :test]
-# gem 'minitest-ansi'  #test output does not appear to change
-# gem 'minitest-colorize'  #bug, doesn't work
 gem 'minitest-rg'   #simple red/green for all tests
-# gem 'minitest-wscolor'  #bug, doesn't work
 gem 'pry-rails'#,        group: [:development, :test]
 # gem 'pry-doc'
 # gem 'pry-debugger'
-# gem 'figaro'#,        group: [:development, :test]
 
-# gem 'turn',        group: :test
-
+gem 'rails_12factor',     group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
