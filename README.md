@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/sprestage/TaoZenAcademy.svg)](https://gemnasium.com/sprestage/TaoZenAcademy)
+
 Tao-Zen Ryu Shindo Academy
 ========
 This is the repository for the code for the website of the academy founded by Grandmaster Kwan-Jang Nim J.G. Townsend's Tao-Zen Ryu Shindo system of martial arts.
