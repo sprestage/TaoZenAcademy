@@ -4,7 +4,7 @@ This is the repository for the code for the website of the academy founded by Gr
 
 Details
 ========
-This is a Rails 4.1.4 website, using Ruby 2.1.2p95.  The repository of code is stored on github.com.  The site uses TravisCI for continuous testing and deployment.  The site is hosted on heroku.com and thus uses PostgreSQL for its database needs.  Minitest is used for automated tests.
+The is a Rails 4.2.4 site, using Ruby 2.1.4.  The repository of code is stored on github.com.  The site uses TravisCI for continuous testing and deployment.  The site is hosted on heroku.com and thus uses PostgreSQL for its database needs.  Minitest is used for automated tests.
 
 Questions
 ========
